@@ -1,0 +1,187 @@
+/*ռλ*/
+.header{
+    height: 70px;
+    background-color: pink;
+}
+.banner{
+    height: 355px;
+    background-color: hotpink;
+}
+.service{
+    height: 1237px;
+    background-color: deeppink;
+}
+
+/*ռλ*/
+
+
+.ability{
+    height : 684px;
+}
+.ability .ability-title{
+    height: 38px;
+    position: relative;
+    text-align: center;
+}
+.ability .ability-title-line{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    min-width: 1100px;
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    background: #e5e5e5;
+    margin: auto 0;
+}
+.ability .ability-title-words{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 134px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-family: "avantgardeitcbybt";
+    margin: auto;
+    background: #fff;
+    font-size: 26px;
+    color: #a6a6a6;
+}
+.ability .ability-content{
+    width: 1100px;
+    height: 432px;
+    margin: 56px auto 10px auto;
+    overflow: hidden;
+}
+.ability .ability-content-1{
+    display: block;
+}
+.ability .ability-content1-left{
+    width:550px;
+    height: 144px;
+    position:relative;
+}
+.ability .ability-content1-left img{
+    position: absolute;
+    margin:auto 0;
+    bottom:0;
+    top:43px;
+    left:81px;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+.ability .ability-content1-left-words{
+    position: absolute;
+    left: 140px;
+    top: 34px;
+    right: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.ability .ability-content1-left-words .W-top{
+    position:relative;
+    left:-165px;
+    line-height: 32px;
+    padding: 6px 0;
+    color: #1e1e29;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.ability .ability-content1-left-words .W-bottom{
+    position:relative;
+    left:-400px;
+    line-height: 24px;
+    color: #1e1e29;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ability .ability-content-2{
+    display: none;
+    position: relative;
+    height: 240px;
+    left: 0px;
+    top: 100px;
+    width: 100%;
+}
+.ability .ability-content2-images{
+    position: relative;
+    left:-110px;
+    top:-60px;
+    width:0;
+    height: 0;
+    line-height: 120px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ability #ability-nav {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.spot-on{
+     vertical-align: middle;
+     width: 5px;
+     height: 5px;
+     border: 1px solid #c2c2c2;
+     border-radius: 5px;
+     background-color: #c2c2c2;;
+     margin: 0 2px;
+     display: inline-block;
+     cursor: pointer;
+ }
+.spot-off{
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    margin: 0 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+.ability #ability-btn {
+    width: 206px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 56px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a6a6a6;
+    margin:0 auto;
+    cursor: pointer;
+}
+/*aboutUs slideShow B*/
+#aboutUsSlideShow{
+    Width: 1349px;
+    position: relative;
+    background: #f6f6f6;
+    height: 700px;
+    overflow: hidden;
+}
+#slideShowBox{
+    width: 1325px;
+}
+#slideShowImg{
+    position: absolute;
+    width: 400%;
+}
+#slideShowImg li{
+    float: left;
+    margin: 60px;
+}
+#slideShowSpots{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+/*aboutUs slideShow E*/

@@ -1,0 +1,208 @@
+/*header B*/
+.header{
+    /*width: 100%;*/
+    height: 70px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.logo{
+    width: 210px;
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.logo a{
+    display: block;
+    width: 116px;
+    height: 31px;
+    text-indent: -1000em;
+    background: url("../imgs/logo2.png") no-repeat;
+}
+
+.nav{
+    position: relative;
+    width: 905px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 17px 0;
+}
+.nav-bg{
+    width: 92px;
+    position: absolute;
+    top: 0px;
+    left: 492px;
+    bottom: 0px;
+    /*list-style-type: none;*/
+}
+.nav-bg-left{
+    width: 17px;
+    height: 36px;
+    background: url("../imgs/left-nav2.png") no-repeat center center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto 0;
+
+}
+.nav-bg-center{
+    border-top: 1px solid #402dff;
+    border-bottom: 1px solid #402dff;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 17px;
+    right: 17px;
+}
+.nav-bg-right{
+    width: 17px;
+    height: 36px;
+    background: url("../imgs/right-nav2.png") no-repeat center center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto 0;
+}
+
+.nav li{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    z-index: 9999;
+}
+.nav .li1{
+    margin-right: 8px;
+    width: 92px;
+}
+.nav .li2{
+    margin-right: 16px;
+    width: 92px;
+}
+.nav .li3{
+    margin-right: 16px;
+    width: 124px;
+}
+.nav .li4{
+    margin-right: 20px;
+    width: 124px;
+}
+.nav .li5{
+    width: 92px;
+}
+.nav li a{
+    display: block;
+    color: #454545;
+}
+.nav li a:hover {
+    color: #3B27FF;
+}
+
+.share{
+    position: relative;
+    width: 81px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 18px;
+    /*text-align: right;*/
+    /*margin: auto 0;*/
+    /*overflow: hidden;*/
+
+}
+.share .ico{
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+}
+.share .ico img{
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.wechat{
+    opacity: 0;
+    /*visibility: hidden;*/
+    display: none;
+    position: absolute;
+    top: 11px;
+    right: -30px;
+    width: 150px;
+    background: #fff;
+    text-align: left;
+
+}
+.center{
+    padding: 14px;
+}
+
+
+.wechat .top{
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    right: 0px;
+}
+
+.wechat .code{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.wechat .title{
+    padding-top: 12px;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ACACAC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wechat .wechat-mun{
+    padding-bottom: 9px;
+    line-height: 18px;
+    color: #707070;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wechat .btn{
+    background: #6b7afc;
+    margin-top: 4px;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 33px;
+}
+.wechat .btn a{
+    color: #ffffff;
+}
+.blog{
+    width: 92px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #6d74ff;
+    border-radius: 36px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    /*margin: 17px 28px 17px 20px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 17px;
+    right: 28px;
+    z-index: 99999;
+}
+.blog a{
+    display: block;
+    color: #ffffff;
+}
+/*header E*/

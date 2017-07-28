@@ -1,0 +1,72 @@
+/* 初始化 */
+html, body, h1, h2, h3, h4, ul, ol, dl, dt, dd, p, div, a, form, input, img, button, b, u, i, s, em, span {
+    margin: 0;
+    padding: 0;
+}
+
+b, u, i, s, em {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+img, input, button {
+    border: none;
+    outline: none;
+}
+
+button, html input[type=button], input[type=submit] {
+    cursor: pointer
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #3B27FF;
+}
+
+/*.w {
+    width: 1210px;
+    margin: 0 auto;
+}*/
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*.clearfix::after{*/
+/*content: "";*/
+/*height: 0;*/
+/*line-height: 0px;*/
+/*display: block;*/
+/*visibility: hidden;*/
+/*clear: both;*/
+/*}*/
+
+.clearfix {
+    zoom: 1;
+}
+
+body {
+    /*color: #666;*/
+
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "Helvetica Neue",Tahoma, Arial, 微软雅黑, 宋体, 黑体, "\5b8b\4f53";
+    background: rgb(232, 234, 240);
+}

@@ -1,0 +1,97 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:white;
+}
+.mall{
+    width: 100%;
+    height: 950px;
+    background-color: #6E9EFF;
+    overflow: hidden;
+}
+.mall-content{
+    padding-top: 180px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.mall-content .titile{
+    font-size: 59px;
+    padding-top:60px;
+    font-family: "Microsoft Yahei";
+}
+.mall-content .explain{
+    font-size: 18px;
+    font-family: Arial;
+    margin-top: 20px;
+}
+.mall .mall-content p{
+    text-align: center;
+    margin-top: 20px;
+    color:#fff;
+}
+.mall-content a{
+    margin-top: 20px;
+    line-height: 58px;
+}
+.mall-content a .home{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial;
+}
+.home{
+    background: url("../imgs/btn.png") no-repeat center top;
+    height: 75px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.home p{
+    padding-top: 9px;
+    font-size: 28px;;
+}
+.mall-content .mall-fass{
+    margin:0 auto;
+    margin-top: 75px;
+    min-width: 1096px;
+    width: 1096px;
+    height: 360px;
+}
+
+.mall-fass1{
+    background: url("../imgs/bg1.jpg");
+    width: 274px;
+    height: 280px;
+}
+
+.mall-fass2{
+    background: url("../imgs/bg2.jpg");
+    width: 274px;
+    height: 280px;
+}
+.mall-fass3{
+    background: url("../imgs/bg3.jpg");
+    width: 274px;
+    height: 280px;
+}
+.mall-fass4{
+    background: url("../imgs/bg4.jpg");
+    width: 274px;
+    height: 280px;
+}
+.mall-fass .fl .title{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.mall-fass .fl .title-en{
+    font-size: 14px;
+    margin-top: 0px;
+}
+.mall-fass .fl .title-en2{
+    margin-top: 65px;
+    font-size: 65px;
+}
